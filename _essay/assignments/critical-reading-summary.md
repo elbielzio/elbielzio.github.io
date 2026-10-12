@@ -50,6 +50,7 @@ Community Mapping
 
 
 References
+
 Eddins, Crystal Nicole. 2024. “Fugitivities and Futures: Black Studies in the Digital Era.” In Computational Humanities, edited by Lauren Tilton, David Mimno, and Jessica Marie Johnson. Minneapolis: University of Minnesota Press. urn.ub.unibe.ch
 Hsu, Jeremy. 2026. “Google Earth Risked Ruin with Retracted AI Tool for Making Fake Satellite Pics.” Ars Technica, July 31. https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/. Ars Technica
 McDonough, Katherine. 2024. “Maps as Data.” In Computational Humanities, edited by Lauren Tilton, David Mimno, and Jessica Marie Johnson. Minneapolis: University of Minnesota Press. urn.ub.unibe.ch
