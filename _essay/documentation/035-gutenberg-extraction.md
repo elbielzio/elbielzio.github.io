@@ -1,67 +1,37 @@
 ---
-title: Extracting a Book from Project Gutenberg
+title: Teaching 
 order: 35
 part: Documentation
 ---
 
-Here's the fastest way to see everything CB-Essay can do: skip writing altogether and pull in a finished book. Project Gutenberg hosts more than 60,000 public domain texts, and CB-Essay ships a tool that turns any one of them into a working, styled, chapter-by-chapter site in a few minutes — pre-formatted, front-matter and all. It's also just fun to play with.
+## ANTH 2820: The Emergence of Cities and States (Spring 2025 - Teaching Assistant)
 
-This essay walks through running the extractor, shows exactly what it produces, and points you toward where to take the result from there.
+This course explores how cities and states emerged and developed in different parts of the world, including the ancient Middle East and the Maya, Aztec, and Inca societies of the Americas. Drawing on archaeological evidence, students examine how political authority, social inequality, economic organization, and religious practices shaped these societies.
 
----
-
-
-## Running the Extractor
-
-1. Make sure GitHub Pages is enabled first — see [Get Started, Step 7](03-get-started.html#step-7-deploy-to-github-pages) if you haven't done this yet.
-2. Go to your repository's **Actions** tab.
-3. Click **"Extract Gutenberg Book"** in the workflow list.
-4. Click **"Run workflow"** and fill in three inputs:
-   - **`book_id`** — the Gutenberg ebook ID, found in its URL (`gutenberg.org/ebooks/84` → `84` for *Frankenstein*; `1342` for *Pride and Prejudice*).
-   - **`clear_existing`** (default: checked) — deletes everything currently in `_essay/` before extracting. Uncheck this if you have existing essays you want to keep.
-   - **`generate_about`** (default: checked) — also generates `pages/about.md` with a catalog-card include and an "About This Edition" note.
-5. Click **"Run workflow"** and wait a few minutes for it to extract, commit, and rebuild your site.
+Through comparison, the course considers why cities and states developed in different settings, how these transformations affected everyday life, and what their similarities and differences reveal about human history.
 
 ---
 
-## What You Get
+## ANTH 2800: Introduction to Archaeology (Fall 2025 - Teaching Assistant)
 
-- Chapter-by-chapter Markdown files in `_essay/`, each with `title`, `order`, and `chapter` front matter already set.
-- The book's cover image and interior illustrations, downloaded where available.
-- Author, title, and publication metadata pulled from the book's Dublin Core data.
-- `_config.yml` and `_data/theme.yml` updated automatically — site title, author, description, a matching `half-image` homepage layout with the cover as the featured image, and print metadata.
-- If `generate_about` was checked, a populated `pages/about.md` crediting Project Gutenberg and linking back to the extraction script.
+This course introduces students to anthropological archaeology and the study of human societies through material remains. Students explore how archaeologists use artifacts, landscapes, buildings, environmental evidence, and historical documents to understand daily life, social relationships, economies, and beliefs across time and place.
+
+Connecting archaeological methods with case studies, the course examines major transformations in human history and their relevance to the present. Students learn to evaluate archaeological arguments, connect material evidence to broader questions about human experience, and develop an appreciation for people from different times and places.
 
 ---
 
-## See It Live
+## ANTH 1010: Introduction to Anthropology (Spring 2026 - Teaching Assistant) 
 
-*Frankenstein* is CB-Essay's own extraction demo — chapter navigation, historical context, and a scholarly apparatus, all starting from the same public domain text shown above.
+This course explores what it means to be human through the comparative study of cultures across space and time. Students examine how culture shapes social relationships, ideas about being a good person, responsibilities to others, interactions with the environment, and religious and spiritual beliefs.
 
-{% include feature/video.html objectid="https://www.lib.uidaho.edu/collectionbuilder/cb-essay/frankenstein.mp4" caption="Building the Frankenstein site end to end, from a blank template to a published book." %}
-
-**View:** [dcnb.github.io/frankenstein](https://dcnb.github.io/frankenstein)
+Through topics such as economic systems, gender, language, politics, and kinship, students develop tools for understanding cultural similarities and differences. The course encourages students to question familiar assumptions, understand others’ experiences within their cultural contexts, and reflect on how culture shapes their own lives.
 
 ---
 
-## Now Make It Yours
+## ANTH 2280: Medical Anthropology (Fall 2026 - Teaching Assistant)
 
-Extracted chapters are a starting point, not a finished essay. Once you've got a book's worth of clean Markdown, treat it the way you would any other CB-Essay content:
+This course introduces students to the study of illness, disease, and suffering through three interconnected areas: medical anthropology, ethics, and care. Students explore how people experience illness, how patients and healthcare practitioners navigate ethical challenges, and how care takes shape in everyday life.
 
-- Add asides that link a passage to a related archival item or historical note — see [Essay Writing Features](04-essay-features.html).
-- Break a long chapter into a scrollytelling sequence with a relevant illustration pinned in view — see [Scroll-Based Features](05-scroll-features.html).
-- Adjust `order` values if you want to reorganize chapters, or add your own introductory essay ahead of Chapter 1.
+Lectures introduce key concepts and theoretical approaches through concrete examples. Discussion sections connect these ideas to the readings, helping students understand how contemporary medical anthropologists study, interpret, and write about experiences of illness and care.
 
----
-
-## For the Curious: How It Works
-
-The extractor pattern-matches against the consistent boilerplate markers, chapter heading conventions, and metadata formats that Project Gutenberg uses across its catalog. For the technical detail — useful if you're debugging an unusual book or extending the script — see the **[Gutenberg Extraction Guide](https://github.com/CollectionBuilder/cb-essay/blob/main/docs/cb-essay/gutenberg-extraction.md)** (technical/maintainer reference, not another tutorial).
-
----
-
-## Next Steps
-
-**[Essay Writing Features →](04-essay-features.html)**
-
-{% include essay/feature/cta.html text="Use This Template →" link="https://github.com/new?template_name=cb-essay&template_owner=CollectionBuilder" description="Ready to extract your own book? Start your own copy of CB-Essay." %}
+The course is required for the Medical Anthropology, Ethics, and Care concentration within the Department of Anthropology and fulfills a requirement for the Health, Ethics, and Society minor.
