@@ -362,7 +362,6 @@ Same logic as before for full-image, half-image, or no-image
         <a class="btn btn-lg py-3 px-5 text-white bg-dark bg-opacity-75 rounded text-decoration-none" href="{{ actual_essays[0].url | relative_url }}">Read &raquo;</a>
 
         {% if site.data.theme.show-homepage-toc %}
-        {{ content }}
         <a class="btn btn-sm py-2 px-4 text-white bg-dark bg-opacity-75 rounded text-decoration-none" href="#table-of-contents"><span class="d-none d-sm-inline">Table of </span>Contents &darr;</a>
         {% endif %}
         {%- else -%}
