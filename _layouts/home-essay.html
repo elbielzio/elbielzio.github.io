@@ -221,7 +221,6 @@ Same logic as before for full-image, half-image, or no-image
                     {%- if essay_count > 1 -%}
                     <a class="btn btn-lg py-3 px-5 btn-dark text-decoration-none" href="{{ actual_essays[0].url | relative_url }}">Read &raquo;</a>
                     {% if site.data.theme.show-homepage-toc %}<br>
-                    {{ content }}
                     <a class="btn btn-outline-dark mt-3 text-decoration-none ms-3" href="#table-of-contents">Contents &darr;</a>
                     {% endif %}
                     {%- else -%}
