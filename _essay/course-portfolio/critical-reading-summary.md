@@ -1,7 +1,7 @@
 ---
 title: Critical Reading Summary
 order: 2
-part: course-portfolio
+part: course portfolio
 ---
 University of Virginia
 DH 8991-001: Introduction to Digital Humanities (Fall 2026)

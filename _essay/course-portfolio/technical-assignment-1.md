@@ -1,6 +1,6 @@
 ---
 title: Technical Assignment 1
 order: 8
-part: course-portfolio
+part: course portfolio
 ---
 
