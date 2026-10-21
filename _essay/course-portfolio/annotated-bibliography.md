@@ -1,7 +1,7 @@
 ---
 title: Annotated Bibliography
 order: 6
-part: Assignments
+part: course-portfolio
 ---
 
 University of Virginia

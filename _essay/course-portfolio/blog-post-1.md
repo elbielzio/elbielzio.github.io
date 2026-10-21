@@ -1,7 +1,7 @@
 ---
 title: Blog Post 1
 order: 3
-part: Assignments
+part: course-portfolio
 ---
 University of Virginia
 DH 8991-001: Introduction to Digital Humanities (Fall 2026)
