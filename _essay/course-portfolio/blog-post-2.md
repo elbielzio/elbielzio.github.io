@@ -12,13 +12,19 @@ Blog Post 2
   
   Because Amazonia has become central to debates on global climate change, Indigenous life, and environmental destruction, understanding the deeper histories of communities whose lands remain under threat is crucial. Archaeology plays a significant role in environmental conservation discussions, especially in regions where geoglyphs and other earthen structures have only become visible due to deforestation and landscape degradation. My research therefore addresses not only the ancient past but also how archaeological and digital methods can enhance our understanding of Indigenous histories in relation to current ecological and political challenges.
   
- Fig.1. Geoglyph at the Fazenda Crixá, Acre, Brazilian Amazonia. Image: Diego Gurgel.
- 
+{% include essay/feature/image-gallery.html
+   objectid="/assets/img/bp2-fig1-crixa-geoglyph.jpg"
+   alt="Aerial photograph of a large square earthwork enclosed by ditches and raised banks, set in green grassland with a few scattered trees."
+   caption="Fig.1. Geoglyph at the Fazenda Crixá, Acre, Brazilian Amazonia. Image: Diego Gurgel." %}
+
   Digital methods in archaeology have a longstanding academic tradition dating back to the 1950s (Spaulding 1953), when archaeologists began adopting quantitative and computational analyses to achieve more accurate and advanced results. However, it was during the 1990s, with the proliferation of computers and electronic devices, that archaeology more fully embraced virtual reality, GIS, and other computational analyses (Reilly 1991).
   
   In my research, digital methods offer new opportunities to understand the Amazonian landscape. GIS and LiDAR analyses, conducted via drone flights, have transformed Amazonian archaeology by revealing thousands of previously unknown Indigenous archaeological sites concealed beneath dense vegetation. These technologies enable me not only to identify these locations but also to explore diverse ways of comprehending and experiencing the landscape. Specifically, LiDAR-generated 3D models of geoglyphs facilitate investigations into past Indigenous activities at these sites, which I compare with the embodied relational engagements of current Indigenous groups at the same locations.
- 
-Fig. 2. A 3D animation created using data from LiDAR shows the urban center of Cotoca, Bolivian Amazonia. Image: Heiko Prümers / DAI.
+
+{% include essay/feature/image-gallery.html
+   objectid="/assets/img/bp2-fig2-cotoca-lidar.jpg"
+   alt="Oblique 3D LiDAR elevation model of the urban center of Cotoca. A large mound shown in red and orange rises at the center, with smaller platforms and straight causeways crossing a pale green and tan landscape."
+   caption="Fig. 2. A 3D animation created using data from LiDAR shows the urban center of Cotoca, Bolivian Amazonia. Image: Heiko Prümers / DAI." %}
 
   Drone operation, flight planning, LiDAR interpretation, and spatial visualization all contribute to my analysis of landscape movement, human interaction, and the activities and interpretations associated with earthwork landscapes. Features that were previously unknown to community members can become significant evidence of a deep past that shapes Indigenous memory and senses of ancestry and belonging. Thus, using digital methods such as LiDAR and GIS in my research lets me connect human presence and agency in the ancient forest landscape with contemporary engagement and interpretation.
   

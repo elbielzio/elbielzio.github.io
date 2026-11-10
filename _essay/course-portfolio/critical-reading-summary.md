@@ -17,8 +17,14 @@ Readings:
 Mapping and representation
  This critical reading summary focuses on the Week 5 readings on maps and countermapping, with the handout Niahm and I presented to the class as the most significant influence. Before discussing anything in depth, we need to ask what mapping is and why representation matters. A map, technically speaking, is a visual representation of all or part of an area, often designed to show spatial relationships between features like roads, cities, and bodies of water. But why do we do that? The answer isn't unique; it lies in human efforts to engage with space and place. It is often a contextual artistic attempt to materialize ontologically embodied perceptions of landscape, carried by senses of belonging, ancestry, and memory. It can be seen as data that tell us about a specific story (McDonough 2024). A map of a community in Amazonia, thought and informed by the community members’ own interests, will differ from a map of the same area created by a 16th-century geographer.
  Mapping, even though connected to human relational landscape perceptions, is still shaped by threads of visibility and power. For instance, the Mercator projection has been widely used as the default model for world maps for over 400 years. Created in the 16th century as a specialized navigation tool for sailors, it was later adopted as a standard world map across different eras (Osley 1969).  And why does that projection remain the ‘official one’ for that much time? There is no final answer, but it likely relates to its heavy distortions. By grossly inflating the size of landmasses closer to the poles (like making Greenland look the same size as Africa, when Africa is actually 14 times larger, Mercator’s projection served as a tool of Western narratives about political, social, and biological power over African and other non-Western societies. Greenland, Russia, and even the USA have larger areas than the considered inferior, “third world” places. The model, however, has faced increasing efforts to replace it with equal-area alternatives, such as the UN's recent Equal Earth project, which aims to preserve relative areas and offer a more accurate comparison of continents’ sizes. The important point here, though, is that maps, and the processes of making them, make some people, places, and experiences visible while leaving others out, based on power and influence that impose one specific ontological perception of landscape.
- 
-Fig. 1. Equal Earth x Mercator Projections. Image: https://mapprojections.net/compare.php?p1=equalearth&p2=mercator-84
+
+{% include essay/feature/image-gallery.html
+   objectid="/assets/img/crs-fig1-equal-earth-mercator.png"
+   alt="Comparison of the Equal Earth projection in pink and the Mercator projection in green on one world map, with the overlap in grey. The Mercator outlines of Greenland and Antarctica extend far beyond their Equal Earth outlines."
+   caption="Fig. 1. Equal Earth x Mercator Projections. Image: mapprojections.net"
+   source="mapprojections.net"
+   sourcelink="https://mapprojections.net/compare.php?p1=equalearth&p2=mercator-84"
+   width="75" %}
 
 
 Democratization of representation: limits
