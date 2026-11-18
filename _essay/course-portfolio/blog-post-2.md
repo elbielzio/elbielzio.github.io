@@ -3,10 +3,10 @@ title: Blog Post 2
 order: 4
 part: course portfolio
 ---
-University of Virginia
-DH 8991-001: Introduction to Digital Humanities (Fall 2026)
+
+University of Virginia  
+DH 8991-001: Introduction to Digital Humanities (Fall 2026)  
 Gabriel Santos de Oliveira
-Blog Post 2
 
   My PhD project investigates the long-term relationships between Indigenous peoples and the landscapes of Southwestern Amazonia, focusing on geometric earthwork structures known as geoglyphs, which first appeared approximately 2000 years ago. I examine how these structures were used and perceived in the distant past, as well as how these landscapes continue to influence and be influenced by Indigenous communities today. To achieve this, I integrate archaeological excavations of earthwork complexes with ethnographic research and digital archaeology methods in the community of Puerto Rico, Pando, Bolivia.
   
@@ -30,7 +30,8 @@ Blog Post 2
   
   Although these methods allow me to examine human relationships with landscapes, I recognize several limitations and challenges. These include high costs, limited penetration in dense canopy, and seasonal or weather-related constraints. Additionally, the use of drones and LiDAR can contribute to the exploitation and potential destruction of specific environments and communities. Therefore, I view these methods not as the central focus of my research, but as tools that facilitate inquiry and must be employed critically throughout my PhD project.
 
-References
-Reilly, P. (1991). Towards a Virtual Archaeology. In K. Lockyear & S. Rahtz (Eds.), Computer Applications and Quantitative Methods in Archaeology 1990 (BAR International Series 565, pp. 132–139). Oxford: Tempus Reparatum.
-Spaulding, Albert C. 1953. "Statistical Techniques for the Discovery of Artifact Types." American Antiquity 18 (4): 305–313. Link de Acesso via Semantic Scholar.
+## References
 
+Reilly, P. (1991). Towards a Virtual Archaeology. In K. Lockyear & S. Rahtz (Eds.), Computer Applications and Quantitative Methods in Archaeology 1990 (BAR International Series 565, pp. 132–139). Oxford: Tempus Reparatum.
+
+Spaulding, Albert C. 1953. "Statistical Techniques for the Discovery of Artifact Types." American Antiquity 18 (4): 305–313. Link de Acesso via Semantic Scholar.
