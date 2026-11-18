@@ -4,10 +4,9 @@ order: 6
 part: course portfolio
 ---
 
-University of Virginia
-DH 8991-001: Introduction to Digital Humanities (Fall 2026)
+University of Virginia  
+DH 8991-001: Introduction to Digital Humanities (Fall 2026)  
 Gabriel Santos de Oliveira
-Annotated Bibliography
 
 1.	Chase, Arlen F., Diane Z. Chase, Christopher T. Fisher, Stephen J. Leisz, and John F. Weishampel. 2012. “Geospatial Revolution and Remote Sensing LiDAR in Mesoamerican Archaeology.” Proceedings of the National Academy of Sciences 109 (32): 12916–21. https://doi.org/10.1073/pnas.1205198109.
  Chase et al. is an important article that opens the door to discussing remote sensing LiDAR in archaeology. Although it focuses on the Mesoamerican context, it defines LiDAR, explains its uses, and outlines its advantages and disadvantages in archaeology.
@@ -52,7 +51,6 @@ Annotated Bibliography
   To produce a generalized simulation of movement through the reduccion, the authors use a GIS-based model that combines spatial network and cumulative viewshed analysis to create a transit density map. This includes an anisotropic walking model to estimate travel costs and per-house population estimates to approximate transit density along network paths.
  Given my interest in landscape movement in archaeology, this article offers useful philosophical and technical insights that can help me think more carefully about my own archaeological context of earthwork sites in Amazonia.
 
+## Provenance
 
-Provenance
    These sources are varied and cover different geographical areas and theoretical influences. Although they focus more on archaeological studies, they also address broader digital humanities debates on geographical information systems, Digital Mapping, and the use of LiDAR. I learned about the Amazon Revealed project through my association with the Tropics Archaeology Laboratory at the University of São Paulo, where my former advisor, Dr. Eduardo Goes Neves, coordinates it. Through email exchanges with him, I learned that this project was running over southwestern Amazonia. I found the Pärssinen, M., Kalliola, R., Ranzi, A. et al. article through the Anthropology Department newsletter at UVA, where members share new publications that may interest others. I found Llobera’s article by reviewing citations in another article about the ethnography of the Amazonian landscape. Katherine McDonough's “Maps as Data” was in our Intro to DH syllabus and became especially important after I presented it for the class in week 5. Finally, I found the rest of these sources on the syllabus for Spatial Analysis and GIS in Archaeology (ANTH 5875), taught by Dr. Sonia Alconini in Spring 2025, whose instruction significantly supported my development in GIS and LiDAR analysis. All of them will be pivotal to my research on Amazonian Indigenous Landscapes in Bolivia and the use of digital methods.
-

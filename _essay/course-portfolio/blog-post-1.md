@@ -3,11 +3,11 @@ title: Blog Post 1
 order: 3
 part: course portfolio
 ---
-University of Virginia
-DH 8991-001: Introduction to Digital Humanities (Fall 2026)
+
+University of Virginia  
+DH 8991-001: Introduction to Digital Humanities (Fall 2026)  
 Gabriel Santos de Oliveira
 
-Blog Post 1
   I couldn't attend Professor Murrieta-Flores’s lecture/workshop because of a scheduling conflict, but I would like to reflect on her texts for our class. Her work makes me think of data injustice as both exclusion and authority. Some histories remain hard to access because their records haven't been digitized or because existing technologies can't process them adequately.  Making those records available, though, does not settle who can interpret them or determine their future uses. It would be making something available without considering the bigger social context. For me, then, machine learning’s potential lies in expanding access while creating opportunities to question how knowledge is organized and who has the power to shape it.
   
   The research featured in her article “Unlocking colonial records with Artificial Intelligence. Achieving the automated transcription of large-scale 16th and 17th-century Latin American historical collections” (Murrieta-Flores et al. 2025) offers a concrete example. Murrieta-Flores and her colleagues developed models that classify handwriting styles and transcribe colonial Spanish manuscripts from the sixteenth and seventeenth centuries. In fact, these methods can “democratize" access to information and consequently help researchers search collections that otherwise require extensive specialist training and time to decipher. It is an important intervention because unequal access to historical evidence shapes the histories we can tell and how we perceive and replicate the past. In this regard, making these collections searchable could support research into Indigenous lives, relationships, and strategies that have received less scholarly attention.
@@ -22,6 +22,8 @@ Blog Post 1
   
   In conclusion, what interests me most is combining computational help with shared responsibility in interpretation. Although machine learning can remove some obstacles to gaining historical knowledge, we should also assess its value in terms of the relationships it fosters. To address data injustice, one must consider whether a project gives communities greater control over how their histories become data and how that data is used.
 
-References
-Patricia Murrieta-Flores, et al, Unlocking colonial records with Artificial Intelligence. Achieving the automated transcription of large-scale 16th and 17th-century Latin American historical collections, STAR: Science & Technology of Archaeological Research, 11:1 (2025)  
-Patricia Murrieta-Flores & Shanmugapriya T. Computational Approaches to Cultural Heritage in the Global South: Infrastructures, Analytics, and Epistemic Justice, Journal of Cultural Analytics. 11:2 (2026) https://culturalanalytics.org/article/id/1510/ 
+## References
+
+Patricia Murrieta-Flores, et al, Unlocking colonial records with Artificial Intelligence. Achieving the automated transcription of large-scale 16th and 17th-century Latin American historical collections, STAR: Science & Technology of Archaeological Research, 11:1 (2025)
+
+Patricia Murrieta-Flores & Shanmugapriya T. Computational Approaches to Cultural Heritage in the Global South: Infrastructures, Analytics, and Epistemic Justice, Journal of Cultural Analytics. 11:2 (2026) https://culturalanalytics.org/article/id/1510/
