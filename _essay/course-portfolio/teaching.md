@@ -1,7 +1,7 @@
 ---
-title: Teaching 
-order: 35
-part: Documentation
+title: Teaching
+order: 11
+part: course portfolio
 ---
 
 ## ANTH 2820: The Emergence of Cities and States (Spring 2025 - Teaching Assistant)
