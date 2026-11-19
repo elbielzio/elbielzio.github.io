@@ -128,7 +128,7 @@ For detailed guidance, see [Essay Writing Guide](https://github.com/CollectionBu
 
 **When to use this section:** After you've created your first essay and want to add blockquotes, margin notes, or other specialized features.
 
-CB-Essay provides specialized includes for scholarly writing. **Copy the examples below directly into your essays.** For the full bonanza — every variant demonstrated live — see the [Essay Writing Features essay](/essay/04-essay-features.html).
+CB-Essay provides specialized includes for scholarly writing. **Copy the examples below directly into your essays.** For the full bonanza — every variant demonstrated live — see the [Essay Writing Features essay](https://collectionbuilder.github.io/cb-essay/essay/04-essay-features.html).
 
 ### Blockquotes
 
@@ -261,7 +261,7 @@ Second panel text.
 ```
 {: .copy-code}
 
-Every animation, layout, and map-transition variant — zoom, pan, Ken Burns, sidecar, video backgrounds, flyTo/pan/basemap-switching maps — is demonstrated live with copy-paste code in the [Scrolly Media Gallery](/essay/scrolly-media-gallery.html) and [Scrolly Map Gallery](/essay/scrolly-map-gallery.html). The tables below are the condensed parameter reference.
+Every animation, layout, and map-transition variant — zoom, pan, Ken Burns, sidecar, video backgrounds, flyTo/pan/basemap-switching maps — is demonstrated live with copy-paste code in the [Scrolly Media Gallery](https://collectionbuilder.github.io/cb-essay/essay/scrolly-media-gallery.html) and [Scrolly Map Gallery](https://collectionbuilder.github.io/cb-essay/essay/scrolly-map-gallery.html). The tables below are the condensed parameter reference.
 
 **`scrolly-media.html`** — opens an image/video background block:
 
@@ -308,7 +308,7 @@ Every animation, layout, and map-transition variant — zoom, pan, Ken Burns, si
 
 **When to use this section:** When you want to add images, PDFs, audio, or other collection items to your essays.
 
-This section covers the basics of referencing collection items in essays. For worked examples with live asides and items, see [Essay Writing Features](/essay/04-essay-features.html).
+This section covers the basics of referencing collection items in essays. For worked examples with live asides and items, see [Essay Writing Features](https://collectionbuilder.github.io/cb-essay/essay/04-essay-features.html).
 
 ### Using Collection Items
 
@@ -620,7 +620,7 @@ For detailed, essay-specific guidance and a full resource list, see the [Accessi
 
 CB-Essay includes a GitHub Action to import **60,000+ public domain books** from Project Gutenberg directly into your `_essay/` folder.
 
-For the full story — a before/after look at what gets extracted, and a tour of the finished Frankenstein site — see the [Extracting a Book from Project Gutenberg](/essay/035-gutenberg-extraction.html) essay. The steps below are the condensed reference.
+For the full story — a before/after look at what gets extracted, and a tour of the finished Frankenstein site — see the [Extracting a Book from Project Gutenberg](https://collectionbuilder.github.io/cb-essay/essay/035-gutenberg-extraction.html) essay. The steps below are the condensed reference.
 
 ### How to Use
 
@@ -660,7 +660,7 @@ For technical details, see [Gutenberg Extraction Guide](https://github.com/Colle
 
 ## Publishing {#publishing}
 
-See the [Publishing, Printing & Reading essay](/essay/06-publishing-reading.html) for the full picture, including print/PDF, search, and e-reader considerations. The reference below covers deployment specifically.
+See the [Publishing, Printing & Reading essay](https://collectionbuilder.github.io/cb-essay/essay/06-publishing-reading.html) for the full picture, including print/PDF, search, and e-reader considerations. The reference below covers deployment specifically.
 
 ### GitHub Pages (Free)
 
