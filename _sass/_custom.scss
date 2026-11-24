@@ -91,3 +91,81 @@ max-width: 350px;
     list-style: none;
     padding-left: 0;
 }
+
+/* ==================================================================
+   Look: earth palette with a river-teal accent
+   (palette comes from color-theme: custom in _data/theme.yml)
+================================================================== */
+$strata-clay:  #a85d34;
+$strata-ochre: #d4a14e;
+$strata-sand:  #e8dcc2;
+$river:        #1f6b70;
+$river-light:  #7cc4c4;
+
+/* Soil-layer bands: three thin strips under the top bar (site menu and class reading bar) and above the footer */
+.site-topnav,
+.essay-navbar {
+    box-shadow: 0 2px 0 $strata-clay, 0 4px 0 $strata-ochre, 0 6px 0 $strata-sand;
+}
+footer.bg-black {
+    background-color: var(--cb-footer-bg) !important;
+    position: relative;
+    box-shadow: 0 -2px 0 $strata-clay, 0 -4px 0 $strata-ochre, 0 -6px 0 $strata-sand;
+}
+
+/* Site menu: dropdown in the same deep earth colour, river-teal mark for the current section */
+.site-topnav .dropdown-menu {
+    --bs-dropdown-bg: var(--cb-navbar-bg);
+    --bs-dropdown-color: var(--cb-navbar-text);
+    --bs-dropdown-link-color: var(--cb-navbar-text);
+    --bs-dropdown-link-hover-color: var(--cb-navbar-text);
+    --bs-dropdown-link-hover-bg: var(--cb-navbar-hover-bg);
+    --bs-dropdown-link-active-color: var(--cb-navbar-text);
+    --bs-dropdown-link-active-bg: var(--cb-navbar-hover-bg);
+    --bs-dropdown-border-color: rgba(255, 255, 255, 0.14);
+    --bs-dropdown-divider-bg: rgba(255, 255, 255, 0.18);
+}
+.site-topnav .nav-link.active {
+    box-shadow: inset 0 -2px 0 $river-light;
+    border-radius: 4px 4px 0 0;
+}
+.site-topnav .dropdown-item.active {
+    box-shadow: inset 3px 0 0 $river-light;
+}
+
+/* Home banner: a little shorter so the intro shows below it, and an earth-toned title panel */
+#everything #home-banner {
+    min-height: 80vh;
+}
+#everything #title-box {
+    background-color: rgba(34, 20, 12, 0.72) !important;
+    border-left: 4px solid $strata-ochre;
+    border-radius: 4px !important;
+}
+#everything #title-box .tagline {
+    letter-spacing: 0.04em;
+    font-size: 1.05rem;
+}
+
+/* Photo ring and link hover */
+.home-intro .profile-photo {
+    box-shadow: 0 0 0 4px var(--cb-surface-100), 0 0 0 5px var(--cb-hr-color);
+}
+article a:hover,
+.home-intro a:hover {
+    color: $river;
+}
+
+/* Dividers (---): thin rule with a small earthwork motif, a circle inside a square */
+article hr,
+.home-intro hr {
+    border: 0;
+    opacity: 1;
+    height: 20px;
+    max-width: 16rem;
+    margin: 2.5rem auto;
+    background:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Crect x='2' y='2' width='16' height='16' fill='none' stroke='%23a85d34' stroke-width='1.2'/%3E%3Ccircle cx='10' cy='10' r='5.5' fill='none' stroke='%23a85d34' stroke-width='1.2'/%3E%3C/svg%3E") center / 20px 20px no-repeat,
+        linear-gradient(var(--cb-hr-color), var(--cb-hr-color)) left center / calc(50% - 16px) 1px no-repeat,
+        linear-gradient(var(--cb-hr-color), var(--cb-hr-color)) right center / calc(50% - 16px) 1px no-repeat;
+}
