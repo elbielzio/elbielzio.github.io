@@ -1,11 +1,23 @@
 display_name,stub,dropdown_parent
-About,/about.html,
-Search,/search/,
-Print & PDF,/print/,
-Collection,
+Home / Contact,/,
+Class Intro to DH – Fall 2026,,
+Overview,/class-intro-dh.html,Class Intro to DH – Fall 2026
+Class Handout,/essay/class-handout.html,Class Intro to DH – Fall 2026
+Critical Reading Summary,/essay/critical-reading-summary.html,Class Intro to DH – Fall 2026
+Blog Post 1,/essay/blog-post-1.html,Class Intro to DH – Fall 2026
+Blog Post 2,/essay/blog-post-2.html,Class Intro to DH – Fall 2026
+Blog Post 3,/essay/blog-post-3.html,Class Intro to DH – Fall 2026
+Annotated Bibliography,/essay/annotated-bibliography.html,Class Intro to DH – Fall 2026
+Pedagogical Assignment,/essay/pedagogical-assignment.html,Class Intro to DH – Fall 2026
+Technical Assignment 1,/essay/technical-assignment-1.html,Class Intro to DH – Fall 2026
+Technical Assignment 2,/essay/technical-assignment-2.html,Class Intro to DH – Fall 2026
+Technical Assignment 3,/essay/technical-assignment-3.html,Class Intro to DH – Fall 2026
+Print & PDF,/print/,Class Intro to DH – Fall 2026
+Collection,/class-intro-dh.html#collection,Class Intro to DH – Fall 2026
 Browse,/browse.html,Collection
 Subjects,/subjects.html,Collection
 Locations,/locations.html,Collection
 Map,/map.html,Collection
 Timeline,/timeline.html,Collection
 Data,/data.html,Collection
+Search,/search/,

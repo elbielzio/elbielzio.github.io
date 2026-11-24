@@ -212,10 +212,10 @@ Same logic as before for full-image, half-image, or no-image
             <div class="col-md-6 order-md-1 d-none d-md-block">
                 <div class="px-5 py-5">
                     <h1 class="home-title home-title--half mb-3 mt-0">{{ site.title }}</h1>
-                    {% if page.author or site.author %}
-                    <p class="tagline mb-4">by {{ page.author | default: site.author }}</p>
-                    {% elsif site.tagline %}
+                    {% if site.tagline %}
                     <p class="tagline mb-4">{{ site.tagline }}</p>
+                    {% elsif page.author or site.author %}
+                    <p class="tagline mb-4">by {{ page.author | default: site.author }}</p>
                     {% endif %}
                     
                     {%- if essay_count > 1 -%}
@@ -242,10 +242,10 @@ Same logic as before for full-image, half-image, or no-image
                     <!-- Title box for mobile (matches full-image layout) -->
                     <div class="home-mobile-title-box d-md-none py-3 px-4 text-white bg-dark bg-opacity-75 rounded">
                         <h1 class="home-title home-title--hero mt-5">{{ site.title }}</h1>
-                        {% if page.author or site.author %}
-                        <p class="tagline mb-4">by {{ page.author | default: site.author }}</p>
-                        {% elsif site.tagline %}
+                        {% if site.tagline %}
                         <p class="tagline mb-4">{{ site.tagline }}</p>
+                        {% elsif page.author or site.author %}
+                        <p class="tagline mb-4">by {{ page.author | default: site.author }}</p>
                         {% endif %}
                     </div>
                     <!-- Action box for mobile (matches full-image layout) -->
@@ -304,10 +304,10 @@ Same logic as before for full-image, half-image, or no-image
     <div class="row justify-content-center align-items-center min-vh-50">
         <div class="col-lg-8 col-md-10 text-center py-5">
             <h1 class="home-title home-title--no-image mb-4">{{ site.title }}</h1>
-            {% if page.author or site.author %}
-            <p class="tagline mb-4">by {{ page.author | default: site.author }}</p>
-            {% elsif site.tagline %}
+            {% if site.tagline %}
             <p class="tagline mb-4">{{ site.tagline }}</p>
+            {% elsif page.author or site.author %}
+            <p class="tagline mb-4">by {{ page.author | default: site.author }}</p>
             {% endif %}
             
             <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
@@ -329,10 +329,10 @@ Same logic as before for full-image, half-image, or no-image
     <div class="row justify-content-center align-items-center min-vh-50">
         <div class="col-lg-8 col-md-10 text-center py-5">
             <h1 class="home-title home-title--no-image mb-4">{{ site.title }}</h1>
-            {% if page.author or site.author %}
-            <p class="tagline mb-4">by {{ page.author | default: site.author }}</p>
-            {% elsif site.tagline %}
+            {% if site.tagline %}
             <p class="tagline mb-4">{{ site.tagline }}</p>
+            {% elsif page.author or site.author %}
+            <p class="tagline mb-4">by {{ page.author | default: site.author }}</p>
             {% endif %}
             <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
                 {%- if essay_count > 1 -%}
@@ -350,10 +350,10 @@ Same logic as before for full-image, half-image, or no-image
 
     <div id="title-box" class="py-3 px-4 text-white bg-dark bg-opacity-75 rounded">
         <h1 class="home-title home-title--hero mt-5">{{ site.title }}</h1>
-        {% if page.author or site.author %}
-        <p class="tagline mb-4">by {{ page.author | default: site.author }}</p>
-        {% elsif site.tagline %}
+        {% if site.tagline %}
         <p class="tagline mb-4">{{ site.tagline }}</p>
+        {% elsif page.author or site.author %}
+        <p class="tagline mb-4">by {{ page.author | default: site.author }}</p>
         {% endif %}
     </div>
 
@@ -520,3 +520,19 @@ Only show if multiple essays exist
 </div>
 {%- endif -%}
 
+{%- comment -%}
+HOME INTRO
+When the table of contents is switched off (show-homepage-toc: false in _data/theme.yml),
+show the home page's own content (pages/index.md) in its place.
+{%- endcomment -%}
+{%- unless site.data.theme.show-homepage-toc and essay_count > 1 -%}
+<div id="home-intro" class="container-fluid py-5 home-intro">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+            <div class="text-start mb-5">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>
+{%- endunless -%}
