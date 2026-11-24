@@ -7,6 +7,8 @@ permalink: /
 
 I am a PhD student in Anthropology and hold a BA in History from the University of São Paulo. My research focuses on Amazonian archaeology, examining long-term relationships between Indigenous peoples and sacred forest landscapes in the Department of Pando, Bolivia.
 
+[More about me &rarr;]({{ '/about-me.html' | relative_url }})
+
 ## Contact {#contact}
 
 - **Email:** [pxm5fx@virginia.edu](mailto:pxm5fx@virginia.edu)

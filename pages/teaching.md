@@ -1,8 +1,11 @@
 ---
+layout: essay-content
 title: Teaching
-order: 11
-part: course portfolio
+permalink: /teaching.html
 ---
+
+# Teaching
+{: #page-title .display-5 .essay-main}
 
 ## ANTH 2820: The Emergence of Cities and States (Spring 2025 - Teaching Assistant)
 
