@@ -48,7 +48,9 @@ keyboard-essay-nav: true
 #          gregynog, ashendene, custom
 # ────────────────────────────────────────────────────────────────────────
 
-color-theme: default
+color-theme: custom
+custom-color: "#8A4B2A"   # clay / terra preta brown: the palette (cream paper, deep earth navbar and footer) is derived from this hue
+navbar-style: dark
 
 #### BUILT-IN THEMES (printing-history references)
 # idaho     — USDA, 1958 Douglas-fir cloth, gold stamp · dark green navbar · Spectral
@@ -105,10 +107,10 @@ aside-display-mode: auto
 
 base-font-size: 1.2em            # 1.2em – 1.4em recommended for long-form reading
 
-base-font-family: theme           # 'theme' | 'Georgia' | "'YourFont', Georgia, serif"
-display-font-family: theme        # 'theme' | 'Georgia' | "'YourFont', Georgia, serif"
+base-font-family: "'Spectral', Georgia, serif"
+display-font-family: "'Cormorant Garamond', Georgia, serif"
 
-font-cdn:                         # only set if base/display-font-family is custom
+font-cdn: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap"
 
 # Legacy color overrides — uncomment to override the theme's colors.
 # In most cases, leave these commented out and let `color-theme:` below
