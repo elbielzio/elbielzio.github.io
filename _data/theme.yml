@@ -21,7 +21,7 @@
 image-style: full-image                # full-image, half-image, or no-image
 featured-image: /assets/img/amazoniapuertorico.jpg
 featured-image-credit: "Puerto Rico, Bolivian Amazonia"
-featured-image-alt-text: "Areial view of The Community of Puerto Rico, Bolivia" # Add alt text for accessibility
+featured-image-alt-text: "Aerial view of The Community of Puerto Rico, Bolivia" # Add alt text for accessibility
 
 
 # NAVIGATION FEATURES
@@ -30,7 +30,7 @@ featured-image-alt-text: "Areial view of The Community of Puerto Rico, Bolivia" 
 
 show-contents-nav: true 
 # true == navbar shows a "Contents" button that opens the essay chapter list
-show-homepage-toc: true 
+show-homepage-toc: false 
 # true == homepage displays a table of contents listing all essays
 show-section-nav: true
 # true ==  essay pages show a fixed floating sidebar (on wide screens)

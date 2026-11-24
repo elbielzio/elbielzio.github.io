@@ -6,7 +6,17 @@
   <body class="d-flex flex-column h-100">
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
     <div id="everything" class="flex-grow-1">
-      {% unless page.featured-image or page.layout == 'home-essay' %}{% include essay/side-nav.html %}{% endunless %}
+      {%- comment -%}
+        Class essays (the _essay collection) and pages with a cover image keep the reading navigation.
+        Every other page, including the home page, gets the site navigation bar (_includes/site-nav.html).
+      {%- endcomment -%}
+      {% if page.layout == 'home-essay' %}
+        {% include site-nav.html %}
+      {% elsif page.collection == 'essay' or page.featured-image %}
+        {% unless page.featured-image %}{% include essay/side-nav.html %}{% endunless %}
+      {% else %}
+        {% include site-nav.html %}
+      {% endif %}
       <main id="maincontent" role="main" class="flex-shrink-0">
         {{ content }}
       </main>

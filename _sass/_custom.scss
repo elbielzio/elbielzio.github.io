@@ -2,47 +2,92 @@
     Put your custom SCSS here!
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+/* Round photo on the home page when the essay contents list is switched on */
 #table-of-contents p img{
 border-radius: 50%;
 max-width: 350px;
 }
 
-/*
-    Front page profile block (content comes from pages/index.md):
-    name, subtitle, round photo and the short bio, shown above "Contents".
-*/
-#table-of-contents .profile-name {
-    text-align: center;
-    font-size: clamp(2.1rem, 5vw, 3.1rem);
-    margin: 0 0 0.35rem;
+/* ------------------------------------------------------------------
+   Site navigation bar (_includes/site-nav.html, items from _data/config-nav.csv)
+------------------------------------------------------------------ */
+.site-topnav {
+    background: var(--cb-navbar-bg);
+    border-bottom: 1px solid var(--cb-navbar-border);
+    position: relative;
+    z-index: 1030;
 }
-#table-of-contents .profile-subtitle {
-    text-align: center;
-    font-size: 1.05rem;
-    letter-spacing: 0.03em;
-    color: var(--cb-text-700);
-    margin: 0 0 2rem;
+.site-topnav .navbar-brand {
+    color: var(--cb-navbar-text);
+    font-style: italic;
+    font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+    white-space: normal;
 }
-#table-of-contents .profile-photo {
+.site-topnav .nav-link {
+    color: var(--cb-navbar-text);
+    opacity: 0.85;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.6rem 0.85rem;
+    border-radius: 4px;
+}
+.site-topnav .nav-link:hover,
+.site-topnav .nav-link:focus,
+.site-topnav .nav-link.active,
+.site-topnav .nav-link.show {
+    color: var(--cb-navbar-text);
+    opacity: 1;
+    background: var(--cb-navbar-hover-bg);
+}
+.site-topnav .dropdown-menu {
+    font-size: 0.95rem;
+    min-width: 16rem;
+}
+.site-topnav .dropdown-group-label {
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.site-topnav .dropdown-group-item {
+    padding-left: 1.75rem;
+}
+
+/* Home banner: the "Read" button led to the first class essay; navigation now lives in the top bar */
+#action-box {
+    display: none;
+}
+
+/* ------------------------------------------------------------------
+   Home page intro (content of pages/index.md): round photo with the
+   short intro beside it, then the contact details.
+------------------------------------------------------------------ */
+.home-intro .profile-photo {
     display: block;
     width: 240px;
     max-width: 100%;
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    border-radius: 50%;
     margin: 0 auto 1.5rem;
 }
 @media (min-width: 768px) {
-    /* photo on the left, bio flowing around it */
-    #table-of-contents .profile-photo {
+    /* photo on the left, text flowing around it */
+    .home-intro .profile-photo {
         float: left;
         margin: 0.25rem 2rem 1rem 0;
         shape-outside: circle(50%);
         shape-margin: 1rem;
     }
 }
-/* keep "Contents" below the bio, even if the bio is shorter than the photo */
-#table-of-contents .text-start > .display-4 {
+.home-intro .text-start > h2 {
     clear: both;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
+}
+.home-intro ul {
+    list-style: none;
+    padding-left: 0;
 }

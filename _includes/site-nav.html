@@ -1,0 +1,56 @@
+{%- comment -%}
+
+    Site navigation bar (top of every page except the class essay pages, which keep
+    their reading navigation: Contents | title | Menu).
+
+    Built from "_data/config-nav.csv":
+      - a row with no "dropdown_parent" is a top-level item
+      - a top-level row with no "stub" becomes a dropdown holding the rows that name it as "dropdown_parent"
+      - inside a dropdown, a row that has rows of its own (dropdown_parent = its display_name)
+        becomes a small labelled group (divider, linked label, indented items)
+
+{%- endcomment -%}
+{%- assign nav_rows = site.data.config-nav -%}
+{%- assign top_items = nav_rows | where_exp: 'item', 'item.display_name and item.dropdown_parent == nil' -%}
+<header class="site-topnav" role="banner">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" aria-label="Site navigation">
+        <div class="container-fluid px-3 px-lg-4">
+            <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#site-topnav-menu" aria-controls="site-topnav-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="site-topnav-menu">
+                <ul class="navbar-nav ms-auto">
+                    {%- for nav in top_items %}
+                    {%- assign children = nav_rows | where_exp: 'c', 'c.dropdown_parent == nav.display_name' %}
+                    {%- if children.size > 0 %}
+                    {%- capture known_stubs -%}{%- for c in children -%}|{{ c.stub }}|{%- assign grand = nav_rows | where_exp: 'g', 'g.dropdown_parent == c.display_name' -%}{%- for g in grand -%}|{{ g.stub }}|{%- endfor -%}{%- endfor -%}{%- endcapture -%}
+                    {%- assign needle = '|' | append: page.url | append: '|' %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle{% if known_stubs contains needle %} active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ nav.display_name }}</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            {%- for c in children %}
+                            {%- assign grand = nav_rows | where_exp: 'g', 'g.dropdown_parent == c.display_name' %}
+                            {%- if grand.size > 0 %}
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item dropdown-group-label" href="{{ c.stub | relative_url }}">{{ c.display_name }}</a></li>
+                            {%- for g in grand %}
+                            <li><a class="dropdown-item dropdown-group-item{% if page.url == g.stub %} active{% endif %}" {% if page.url == g.stub %}aria-current="page" {% endif %}href="{{ g.stub | relative_url }}">{{ g.display_name }}</a></li>
+                            {%- endfor %}
+                            {%- else %}
+                            <li><a class="dropdown-item{% if page.url == c.stub %} active{% endif %}" {% if page.url == c.stub %}aria-current="page" {% endif %}href="{{ c.stub | relative_url }}">{{ c.display_name }}</a></li>
+                            {%- endif %}
+                            {%- endfor %}
+                        </ul>
+                    </li>
+                    {%- else %}
+                    <li class="nav-item">
+                        <a class="nav-link{% if page.url == nav.stub %} active{% endif %}" {% if page.url == nav.stub %}aria-current="page" {% endif %}href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
+                    </li>
+                    {%- endif %}
+                    {%- endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

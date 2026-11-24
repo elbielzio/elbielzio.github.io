@@ -51,7 +51,7 @@ source-code: https://github.com/elbielzio/elbielzio.github.io
 # These fields control what appears on your homepage cover/title page
 #
 # title: Main title displayed prominently on the cover page (required)
-title: Amazonian Archaeology Repository
+title: Gabriel Santos de Oliveira (He/Him)
 #
 # author: Appears as "by [Author Name]" beneath the title on cover page (optional)
 # - If provided, this displays instead of the tagline
@@ -65,17 +65,17 @@ author: Gabriel Santos de Oliveira
 # - Use for descriptive subtitle or project tagline
 # - Can also use HTML for multi-line display:
 #   tagline: "A Digital Edition<br>Published 2024"
-tagline: A collection for Intro to Digital Humanities Fall 2026
+tagline: Brazilian Anthropologist ● First Generation Scholar ● PhD Student at the University of Virginia
 #
 # METADATA FIELDS (for search engines and social media):
 #
 # description: Longer description for search engines and social sharing (recommended)
 # - Appears in meta tags and search results
 # - Keep around 160 characters max for best display in search results
-description: Sites and Objects found in the deep forests of South America
+description: Gabriel Santos de Oliveira, Brazilian anthropologist and PhD student at the University of Virginia, studies Amazonian archaeology in the Department of Pando, Bolivia.
 #
 # keywords: Short list of subjects separated by semicolons, for rich markup metadata
-keywords: digital humanities; multimodal essays; lib-static
+keywords: Amazonian archaeology; anthropology; digital humanities; Pando, Bolivia; historical ecology; relational archaeology
 #
 # exhibit-creator: Creator of the digital collection for meta tags (your name or GitHub username)
 exhibit-creator: dcnb
